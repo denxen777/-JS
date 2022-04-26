@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #595959;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+
+
+.wrapper{
+  width: 700px;
+  margin: 100px 0 0 150px;
+}
+
+
+
+header h1{
+  color: #b56a0e;
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+
+
+main p{
+  color: #fff;
+  font-size: 25px;
+}
+main .info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  padding: 15px;
+  background: #596e5e;
+  box-shadow: inset 2px 2px 2px #757574, inset -2px -2px 2px #757574;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+main .info:hover{
+  transform: scale(1.2);
+}
+.info .enisey{
+  width: 100px;
+  height: 100px;
+  background: url(../img/3wppI_UrY_96x96.png) no-repeat center;
+}
+.info .kamaz{
+  width: 115px;
+  height: 115px;
+  background: url(../img/logotype-main.svg) no-repeat center;
+}
+.info .text p{
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: flex-end;
+}
+footer p{
+  margin-top: 70px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 15px;
+  width: 100px;
+  background: #596e5e;
+  border-radius: 15px;
+}
+
+footer a:link, footer a:visited{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover{
+  color: #b8a570;
+}
